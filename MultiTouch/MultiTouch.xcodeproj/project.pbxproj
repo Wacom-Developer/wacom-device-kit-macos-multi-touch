@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031EF36D246DD2C7007134F7 /* OTouchableWindow.mm in Sources */ = {isa = PBXBuildFile; fileRef = 031EF36C246DD2C7007134F7 /* OTouchableWindow.mm */; };
+		031EF36F246DD2ED007134F7 /* FingerDataController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 031EF36E246DD2ED007134F7 /* FingerDataController.mm */; };
+		031EF371246DD300007134F7 /* FingerDataView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 031EF370246DD300007134F7 /* FingerDataView.mm */; };
+		031EF373246DD36F007134F7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031EF372246DD36F007134F7 /* Cocoa.framework */; };
+		0BB6B947132986710039A192 /* FingerData.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BB6B945132986710039A192 /* FingerData.xib */; };
+		14802A4E15927547000CD644 /* WacomMultiTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14802A4D15927547000CD644 /* WacomMultiTouch.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		DC8F420F1278EFD00032E060 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = DC8F420C1278EFD00032E060 /* AppDelegate.mm */; };
+		DC8F42101278EFD00032E060 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8F420D1278EFD00032E060 /* main.m */; };
+		DC8F42291278F0E60032E060 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC8F42251278F0E60032E060 /* InfoPlist.strings */; };
+		DC8F422A1278F0E60032E060 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8F42271278F0E60032E060 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		031EF36C246DD2C7007134F7 /* OTouchableWindow.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OTouchableWindow.mm; sourceTree = "<group>"; };
+		031EF36E246DD2ED007134F7 /* FingerDataController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FingerDataController.mm; sourceTree = "<group>"; };
+		031EF370246DD300007134F7 /* FingerDataView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FingerDataView.mm; sourceTree = "<group>"; };
+		031EF372246DD36F007134F7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		038BF921247DAE4E00F6EA27 /* MultiTouch_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiTouch_Prefix.pch; sourceTree = "<group>"; };
+		03CC83E02472E72A00A285B0 /* MultiTouch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MultiTouch.entitlements; sourceTree = "<group>"; };
+		0B02CAC913207D2E00EEB0D1 /* FingerDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerDataView.h; sourceTree = "<group>"; };
+		0B02CACB13207D2E00EEB0D1 /* FingerDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerDataController.h; sourceTree = "<group>"; };
+		144317AE18998D2100B6F6BE /* DisplayModes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayModes.h; sourceTree = "<group>"; };
+		14802A4D15927547000CD644 /* WacomMultiTouch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WacomMultiTouch.framework; path = /Library/Frameworks/WacomMultiTouch.framework; sourceTree = "<absolute>"; };
+		14C0A4E318981DAE00A8E597 /* OTouchableWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTouchableWindow.h; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* MultiTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2227B423A3349F00282B3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/FingerData.xib; sourceTree = "<group>"; };
+		DB2227B523A3349F00282B3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DB5A350F23A334F000FB6A66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC8F420B1278EFD00032E060 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC8F420C1278EFD00032E060 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		DC8F420D1278EFD00032E060 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC8F42171278F0BB0032E060 /* MultiTouch-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MultiTouch-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031EF373246DD36F007134F7 /* Cocoa.framework in Frameworks */,
+				14802A4E15927547000CD644 /* WacomMultiTouch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* MultiTouch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* MultiTouch */ = {
+			isa = PBXGroup;
+			children = (
+				03CC83E02472E72A00A285B0 /* MultiTouch.entitlements */,
+				DC8F42091278EFBF0032E060 /* Source */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = MultiTouch;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC8F42251278F0E60032E060 /* InfoPlist.strings */,
+				DC8F42171278F0BB0032E060 /* MultiTouch-Info.plist */,
+				0BB6B945132986710039A192 /* FingerData.xib */,
+				DC8F42271278F0E60032E060 /* MainMenu.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				031EF372246DD36F007134F7 /* Cocoa.framework */,
+				14802A4D15927547000CD644 /* WacomMultiTouch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC8F42091278EFBF0032E060 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				14C0A4E318981DAE00A8E597 /* OTouchableWindow.h */,
+				031EF36C246DD2C7007134F7 /* OTouchableWindow.mm */,
+				DC8F420B1278EFD00032E060 /* AppDelegate.h */,
+				DC8F420C1278EFD00032E060 /* AppDelegate.mm */,
+				0B02CACB13207D2E00EEB0D1 /* FingerDataController.h */,
+				031EF36E246DD2ED007134F7 /* FingerDataController.mm */,
+				0B02CAC913207D2E00EEB0D1 /* FingerDataView.h */,
+				031EF370246DD300007134F7 /* FingerDataView.mm */,
+				DC8F420D1278EFD00032E060 /* main.m */,
+				038BF921247DAE4E00F6EA27 /* MultiTouch_Prefix.pch */,
+				144317AE18998D2100B6F6BE /* DisplayModes.h */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* MultiTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MultiTouch" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiTouch;
+			productInstallPath = "$(HOME)/Applications";
+			productName = MultiTouch;
+			productReference = 8D1107320486CEB800E47090 /* MultiTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				TargetAttributes = {
+					8D1107260486CEB800E47090 = {
+						SystemCapabilities = {
+							com.apple.HardenedRuntime = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MultiTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* MultiTouch */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* MultiTouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8F42291278F0E60032E060 /* InfoPlist.strings in Resources */,
+				DC8F422A1278F0E60032E060 /* MainMenu.xib in Resources */,
+				0BB6B947132986710039A192 /* FingerData.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8F420F1278EFD00032E060 /* AppDelegate.mm in Sources */,
+				DC8F42101278EFD00032E060 /* main.m in Sources */,
+				031EF36F246DD2ED007134F7 /* FingerDataController.mm in Sources */,
+				031EF36D246DD2C7007134F7 /* OTouchableWindow.mm in Sources */,
+				031EF371246DD300007134F7 /* FingerDataView.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0BB6B945132986710039A192 /* FingerData.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB2227B423A3349F00282B3F /* Base */,
+			);
+			name = FingerData.xib;
+			sourceTree = "<group>";
+		};
+		DC8F42251278F0E60032E060 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB5A350F23A334F000FB6A66 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC8F42271278F0E60032E060 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB2227B523A3349F00282B3F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = MultiTouch.entitlements;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/MultiTouch_Prefix.pch;
+				INFOPLIST_FILE = "Resources/MultiTouch-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = MultiTouch;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = MultiTouch.entitlements;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/MultiTouch_Prefix.pch;
+				INFOPLIST_FILE = "Resources/MultiTouch-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = MultiTouch;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = MultiTouch.entitlements;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "/Library/Frameworks/**";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "/Library/Frameworks/**";
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = MultiTouch.entitlements;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "/Library/Frameworks/**";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "/Library/Frameworks/**";
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "MultiTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MultiTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
