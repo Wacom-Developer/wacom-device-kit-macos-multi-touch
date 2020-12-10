@@ -33,11 +33,11 @@ under com.apple.security.temporary-exception.mach-register.global-name, change t
 
 For complete API details, see:  
 
-[Multi-Touch Framework - Basics](https://developer-docs.wacom.com/wacom-device-api/docs/multitouch-framework-basics)  
+[Multi-Touch Framework - Basics](https://developer-docs.wacom.com/intuos-cintiq-business-tablets/docs/multitouch-framework-basics)  
 
-[Multi-Touch Framework - Reference](https://developer-docs.wacom.com/wacom-device-api/docs/multitouch-framework-reference)  
+[Multi-Touch Framework - Reference](https://developer-docs.wacom.com/intuos-cintiq-business-tablets/docs/multitouch-framework-reference)  
 
-[Multi-Touch Framework - FAQs](https://developer-docs.wacom.com/wacom-device-api/docs/multitouch-framework-faqs)  
+[Multi-Touch Framework - FAQs](https://developer-docs.wacom.com/intuos-cintiq-business-tablets/docs/multitouch-framework-faqs)  
 
 ## Where to get help
 If you have questions about the sample application or any of the setup process, please visit our Support page at: https://developer.wacom.com/developer-dashboard/support 
