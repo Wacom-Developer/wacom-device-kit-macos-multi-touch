@@ -22,11 +22,11 @@ You can download the Multi-Touch sample code and view the inline comments to fin
 
 For complete API details, see:  
 
-[Multi-Touch Framework - Basics](https://developer-docs.wacom.com/wacom-device-api/docs/multitouch-framework-basics)  
+[Multi-Touch Framework - Basics](https://developer-docs.wacom.com/intuos-cintiq-business-tablets/docs/multitouch-framework-basics)  
 
-[Multi-Touch Framework - Reference](https://developer-docs.wacom.com/wacom-device-api/docs/multitouch-framework-reference)  
+[Multi-Touch Framework - Reference](https://developer-docs.wacom.com/intuos-cintiq-business-tablets/docs/multitouch-framework-reference)  
 
-[Multi-Touch Framework - FAQs](https://developer-docs.wacom.com/wacom-device-api/docs/multitouch-framework-faqs)  
+[Multi-Touch Framework - FAQs](https://developer-docs.wacom.com/intuos-cintiq-business-tablets/docs/multitouch-framework-faqs)  
 
 ## Where To Get Help
 If you have questions about this demo or please visit our support page: https://developer.wacom.com/developer-dashboard/support. 
