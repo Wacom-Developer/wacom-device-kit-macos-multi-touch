@@ -37,7 +37,7 @@ For complete API details, see:
 
 [Multi-Touch Framework - Reference](https://developer-docs.wacom.com/intuos-cintiq-business-tablets/docs/multitouch-framework-reference)  
 
-[Multi-Touch Framework - FAQs](https://developer-docs.wacom.com/intuos-cintiq-business-tablets/docs/multitouch-framework-faqs)  
+[Multi-Touch Framework - FAQs](https://developer-support.wacom.com/hc/en-us/articles/12845526953239)  
 
 ## Where to get help
 If you have questions about the sample application or any of the setup process, please visit our Support page at: https://developer.wacom.com/developer-dashboard/support 
